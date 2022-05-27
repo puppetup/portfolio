@@ -1,7 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; /*<-- look up what this is */
+    box-sizing: border-box;
+    /*<-- look up what this is */
 }
 
 body {
@@ -42,7 +43,7 @@ li {
 }
 
 .menu li:hover {
-    
+
     background-color: #4c9e9e;
     border-radius: 5px;
     transition: 0.3s ease;
@@ -59,7 +60,8 @@ li {
     display: flex;
     width: 100%;
     background-image: url("./images/pexels-aleksandar-pasaric-3342739.jpg");
-    height: 900px; /* why does it get cut off if height isnt set? */
+    height: 900px;
+    /* why does it get cut off if height isnt set? */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -69,7 +71,7 @@ li {
 
 .hero-text {
 
-    
+
     padding-top: 550px;
     text-align: center;
 
@@ -78,25 +80,25 @@ li {
 .light {
 
     color: #fff;
-    font-size: 100px;
+    width: 100%;
 
 }
 
 
 .container {
 
-    
-    
+
+
     padding: 64px;
     background-color: #4c9e9e;
     justify-content: center;
-    
+
 
 
 }
 
 .row:after {
-    
+
     content: "";
     display: table;
     clear: both;
@@ -105,18 +107,17 @@ li {
 
 .row {
 
-    
     display: flex;
-    
-    flex-wrap: wrap;
 
 }
 
+
 .column-66 {
 
-    float:left;
+
     width: 66.66666%;
     padding: 20px;
+    
 
 }
 
@@ -128,49 +129,33 @@ li {
 
 .column-33 {
 
-    float: left;
+
     width: 33.33333%;
     padding: 20px;
     
+
 }
 
 .headshot {
 
     height: 100%;
     width: 100%;
-    
-}
-
-
-.column-75 {
-
-    float: left;
-    width: 80%;
-    padding: 20px
-
-}
-
-.column-25 {
-
-    float: left;
-    width: 20%;
-    padding: 20px;
 
 }
 
 .column-big {
 
-    float: left;
-    width: 40%;
-    height: 500px; 
+    
+    width: 100%;
+    height: 500px;
     padding: 10px;
 
 }
 
 .column-smaller {
 
-    float: left;
-    width: 20%;
+    
+    width: 100%;
     height: 500px;
     padding: 10px;
 }
@@ -189,7 +174,7 @@ li {
 }
 
 .side-project {
-    
+
     height: 100%;
     width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -197,7 +182,7 @@ li {
 
 .main-project {
 
-    height:100%;
+    height: 100%;
     width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 
@@ -215,7 +200,7 @@ li {
     padding: 20px;
     text-align: left;
     display: inline-block;
-    
+
 }
 
 .row-2 {
@@ -232,10 +217,23 @@ li {
     
 } */
 
-@media screen {min-width: 768px;
-    
-}
+@media only screen and (max-width: 600px) {
 
-@media screen {
-    
+    .row {
+        flex-direction: column;
+    }
+    .column-66 {
+
+
+        width: 100%;
+
+
+    }
+
+    .column-33 {
+
+        width: 100%;
+    }
+
+
 }
