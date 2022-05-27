@@ -10,7 +10,7 @@ Clone repo onto a machine. Then, open the index.html file in a web browser or te
 Use this website and its files as justification in your decision on whether or not you should associate yourself with Savino Hoshizaki.
 
 ## Preview
-![Screenshot of webpage](./assets/images/Screen%20Shot%202022-05-26%20at%208.16.32%20PM.png)
+![Screenshot of webpage](./assets/images/preview.png)
 
 ## Credits
 Created by Savino Hoshizaki. All rights reserved. 
