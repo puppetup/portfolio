@@ -14,3 +14,43 @@ body {
     background-image: url(./images/stargif.gif);
     
 }
+
+.centerflex {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right:16%;
+    align-content: center;
+}
+
+.icons {
+    
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-bottom: -5%;
+    align-content: space-between;
+
+}
+
+#alien {
+    margin-top: 6%;
+    margin-right: -4%;
+}
+
+#spaceman {
+    margin-top: -8%;
+    margin-right: 10%;
+
+}
+
+#cards {
+
+    margin-left: 10%;
+
+}
+    
+
+
